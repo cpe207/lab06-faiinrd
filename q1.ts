@@ -8,7 +8,7 @@ const getUser = async (userId: number) => {
     return res.data.name;
   }catch(err){
     return "INVALID USER ID";
-}
+  }
 };
 
 //test case
